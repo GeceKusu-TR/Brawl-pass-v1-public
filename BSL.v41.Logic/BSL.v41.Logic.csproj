@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MySqlConnector" Version="2.3.7" />
+        <ProjectReference Include="..\BSL.v41.Custom.Stream\BSL.v41.Custom.Stream.csproj"/>
+        <ProjectReference Include="..\BSL.v41.Supercell.Titan\BSL.v41.Supercell.Titan.csproj"/>
+        <ProjectReference Include="..\BSL.v41.Titan\BSL.v41.Titan.csproj"/>
+        <ProjectReference Include="..\BSL.v41.Tools\BSL.v41.Tools.csproj"/>
+    </ItemGroup>
+
+</Project>
